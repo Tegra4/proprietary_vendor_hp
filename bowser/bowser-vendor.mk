@@ -21,14 +21,11 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/hp/bowser/proprietary/etc/firmware/bowser_ec.bin:system/etc/firmware/bowser_ec.bin \
     vendor/hp/bowser/proprietary/etc/firmware/bowser_ec_hpsign.bin:system/etc/firmware/bowser_ec_hpsign.bin \
-    vendor/hp/bowser/proprietary/etc/firmware/mp_rtl8723b_fw:system/etc/firmware/mp_rtl8723b_fw \
     vendor/hp/bowser/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/hp/bowser/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/hp/bowser/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
     vendor/hp/bowser/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
     vendor/hp/bowser/proprietary/etc/firmware/OfficialPubKey.bin:system/etc/firmware/OfficialPubKey.bin \
-    vendor/hp/bowser/proprietary/etc/firmware/rtl8723b_config:system/etc/firmware/rtl8723b_config \
-    vendor/hp/bowser/proprietary/etc/firmware/rtl8723b_fw:system/etc/firmware/rtl8723b_fw \
     vendor/hp/bowser/proprietary/etc/firmware/tegra11x/nvhost_msenc02.fw:system/etc/firmware/tegra11x/nvhost_msenc02.fw \
     vendor/hp/bowser/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
     vendor/hp/bowser/proprietary/etc/hdcpsrm/hdcp1x.srm:system/etc/hdcpsrm/hdcp1x.srm \

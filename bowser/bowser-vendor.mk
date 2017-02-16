@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/bin/bowser_ec_flash:system/bin/bowser_ec_flash \
     vendor/hp/bowser/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-    vendor/hp/bowser/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
     vendor/hp/bowser/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/hp/bowser/proprietary/etc/firmware/bowser_ec.bin:system/etc/firmware/bowser_ec.bin \
     vendor/hp/bowser/proprietary/etc/firmware/bowser_ec_hpsign.bin:system/etc/firmware/bowser_ec_hpsign.bin \
@@ -59,17 +58,10 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/hp/bowser/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/hp/bowser/proprietary/vendor/bin/nvcgcserver:system/vendor/bin/nvcgcserver \
-    vendor/hp/bowser/proprietary/vendor/bin/usdwatchdog:system/vendor/bin/usdwatchdog \
-    vendor/hp/bowser/proprietary/vendor/bin/ussrd:system/vendor/bin/ussrd \
     vendor/hp/bowser/proprietary/vendor/lib/libardrv_dynamic.so:system/vendor/lib/libardrv_dynamic.so \
     vendor/hp/bowser/proprietary/vendor/lib/libaudioavp.so:system/vendor/lib/libaudioavp.so \
     vendor/hp/bowser/proprietary/vendor/lib/libcgdrv.so:system/vendor/lib/libcgdrv.so \
     vendor/hp/bowser/proprietary/vendor/lib/libcplconnectclient.so:system/vendor/lib/libcplconnectclient.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libgov_combinator.so:system/vendor/lib/libgov_combinator.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libgov_cores.so:system/vendor/lib/libgov_cores.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libgov_cpufs.so:system/vendor/lib/libgov_cpufs.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libgov_gpufs.so:system/vendor/lib/libgov_gpufs.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libgov_tbc.so:system/vendor/lib/libgov_tbc.so \
     vendor/hp/bowser/proprietary/vendor/lib/libnvapputil.so:system/vendor/lib/libnvapputil.so \
     vendor/hp/bowser/proprietary/vendor/lib/libnvavp.so:system/vendor/lib/libnvavp.so \
     vendor/hp/bowser/proprietary/vendor/lib/libnvcms.so:system/vendor/lib/libnvcms.so \
@@ -113,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/vendor/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so \
     vendor/hp/bowser/proprietary/vendor/lib/libtsechdcp.so:system/vendor/lib/libtsechdcp.so \
     vendor/hp/bowser/proprietary/vendor/lib/libtsec_wrapper.so:system/vendor/lib/libtsec_wrapper.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libussrd.so:system/vendor/lib/libussrd.so \
     vendor/hp/bowser/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/hp/bowser/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/hp/bowser/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \

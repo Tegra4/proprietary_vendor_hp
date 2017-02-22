@@ -92,7 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libnvos.so:system/lib/libnvos.so \
     vendor/hp/bowser/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
     vendor/hp/bowser/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
-    vendor/hp/bowser/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
     vendor/hp/bowser/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
     vendor/hp/bowser/proprietary/lib/libnvtestio.so:system/lib/libnvtestio.so \
     vendor/hp/bowser/proprietary/lib/libnvtestresults.so:system/lib/libnvtestresults.so \
@@ -114,4 +113,5 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 PRODUCT_PACKAGES += \
+    libnvrm \
     libtf_crypto_sst

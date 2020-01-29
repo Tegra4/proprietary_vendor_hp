@@ -19,4 +19,92 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),bowser)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnvblit
+LOCAL_MODULE_OWNER := hp
+LOCAL_SRC_FILES := proprietary/vendor/lib/libnvblit.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnvddk_2d_v2
+LOCAL_MODULE_OWNER := hp
+LOCAL_SRC_FILES := proprietary/vendor/lib/libnvddk_2d_v2.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnvddk_vic
+LOCAL_MODULE_OWNER := hp
+LOCAL_SRC_FILES := proprietary/vendor/lib/libnvddk_vic.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnvfusebypass
+LOCAL_MODULE_OWNER := hp
+LOCAL_SRC_FILES := proprietary/vendor/lib/libnvfusebypass.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnvodm_query
+LOCAL_MODULE_OWNER := hp
+LOCAL_SRC_FILES := proprietary/vendor/lib/libnvodm_query.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnvtvmr
+LOCAL_MODULE_OWNER := hp
+LOCAL_SRC_FILES := proprietary/vendor/lib/libnvtvmr.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsecure_hdcp_up
+LOCAL_MODULE_OWNER := hp
+LOCAL_SRC_FILES := proprietary/vendor/lib/libsecure_hdcp_up.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libtsechdcp
+LOCAL_MODULE_OWNER := hp
+LOCAL_SRC_FILES := proprietary/vendor/lib/libtsechdcp.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
 endif
